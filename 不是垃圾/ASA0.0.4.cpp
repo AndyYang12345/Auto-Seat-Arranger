@@ -49,7 +49,7 @@ void countdown(){
 		Sleep(1000);
 	}
 	Beep(1000,400);
-	cout<<" ------------分座位结束(programmed by 陈功译&杨思源)------------"; 
+	cout<<" ------------分座位结束(programmed by 陈那谁&杨那谁)------------"; 
 	getchar();
 }
 
