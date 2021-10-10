@@ -23,7 +23,7 @@ int main(){
 }
 
 void countdown(){
-	cout<<"-------------------×¼±¸ºÃ½ÓÊÜÃüÔËµÄÖÆ²ÃÁËÂð£¿---------------------";
+	cout<<"-------------------å‡†å¤‡å¥½æŽ¥å—å‘½è¿çš„åˆ¶è£äº†å—ï¼Ÿ---------------------";
 	Sleep(1000);
 	for(int i = 0; i<=9; i++){
 		system("cls");
@@ -49,7 +49,7 @@ void countdown(){
 		Sleep(1000);
 	}
 	Beep(1000,400);
-	cout<<" ------------·Ö×ùÎ»½áÊø(programmed by ³Â¹¦Òë&ÑîË¼Ô´)------------"; 
+	cout<<" ------------åˆ†åº§ä½ç»“æŸ(programmed by é™ˆåŠŸè¯‘&æ¨æ€æº)------------"; 
 	getchar();
 }
 
@@ -59,7 +59,7 @@ void get_seat(){
 		test[i]=i+1;
 	}
 	random_shuffle(test,test+45);
-	//ÒòÎª×ùÎ»ÅÅÐòµÄÖÖ×Ó²»ÔÙ»ùÓÚÊ±¼ä£¬Ã¿´Î×ùÎ»Ë¢ÐÂ²»ÐèÊ±¼ä¼ä¸ô 
+	//å› ä¸ºåº§ä½æŽ’åºçš„ç§å­ä¸å†åŸºäºŽæ—¶é—´ï¼Œæ¯æ¬¡åº§ä½åˆ·æ–°ä¸éœ€æ—¶é—´é—´éš” 
 	for(int i = 0; i <= 44; i++){
 		q.push(test[i]);
 	}
@@ -81,7 +81,7 @@ void get_seat(){
 }
 
 void print_seat(){
-	cout<<" ------------------------------½²Ì¨-----------------------------"<<endl;
+	cout<<" ------------------------------è®²å°-----------------------------"<<endl;
 		for(int i = 0; i <= 5; i++){
 			int flag = 0;
 			cout<<"| ";
@@ -101,50 +101,50 @@ int Rand(int i){
 }
 
 string names(int num){
-	if(num == 1)return "²ÜÔÅÚä"; 
-	if(num == 2)return "³Â¹¦Òë"; 
-	if(num == 3)return " ³ÉÐñ "; 
-	if(num == 4)return "³ÌÓ¢î£"; 
-	if(num == 5)return "¶ÅìÅ½Ü"; 
-	if(num == 6)return "·½Ë´ÏÍ"; 
-	if(num == 7)return "Àè×æ÷ë"; 
-	if(num == 8)return "ÀîÎ­º½"; 
-	if(num == 9)return "ÀîÞÈ¾ù"; 
-	if(num == 10)return "ÀîÔ¶ÕÜ"; 
-	if(num == 11)return "ÁÎÀû¾ü"; 
-	if(num == 12)return "ÁÎÈñº­"; 
-	if(num == 13)return "Áõ×Ó³©"; 
-	if(num == 14)return "ÁúÐÇÖÝ"; 
-	if(num == 15)return "ËÚÕþÁØ"; 
-	if(num == 16)return "Íõ²®äø"; 
-	if(num == 17)return "Íõ¶û×¿"; 
-	if(num == 18)return "Íõò«¼Î"; 
-	if(num == 19)return "Íõ½õÒ»"; 
-	if(num == 20)return "Íõè÷î£"; 
-	if(num == 21)return "ÏòÅµº­"; 
-	if(num == 22)return "ÑîË¼Ô´"; 
-	if(num == 23)return "Ö£ÊËÍ®"; 
-	if(num == 24)return "±ßÓåÇÇ"; 
-	if(num == 25)return "¶­ËªÖ¦"; 
-	if(num == 26)return " ¶ÎÓ± "; 
-	if(num == 27)return "ºîÐÄâù"; 
-	if(num == 28)return "»Æ¿µÔ´"; 
-	if(num == 29)return "»Æçæ¬u"; 
-	if(num == 30)return "½¯ÐÀÜÇ"; 
-	if(num == 31)return "ÀîÑ©·Æ"; 
-	if(num == 32)return "ÁõÒ»Î­"; 
-	if(num == 33)return " Åíµ¤ "; 
-	if(num == 34)return "Ê¯ÜÆÈc"; 
-	if(num == 35)return "ÏòË¼Æë"; 
-	if(num == 36)return "ÐÜÐÂåû"; 
-	if(num == 37)return "ÑîÑàÎ÷"; 
-	if(num == 38)return "Ñî×Óº­"; 
-	if(num == 39)return "ÕÅÒÕ¬u"; 
-	if(num == 40)return "Ö£ÇåÔÂ"; 
-	if(num == 41)return "ÖÓåûÓê"; 
-	if(num == 42)return "ÖìÞÈµ’"; 
-	if(num == 43)return "ÕÔ¾þÏö"; 
-	if(num == 44)return "ÑîÈô¬u"; 
-	if(num == 45)return "²Ì¼Ñâù"; 
+	if(num == 1)return "æ›¹é‚£è°"; 
+	if(num == 2)return "é™ˆé‚£è°"; 
+	if(num == 3)return "æˆé‚£è°"; 
+	if(num == 4)return "ç¨‹é‚£è°"; 
+	if(num == 5)return "æœé‚£è°"; 
+	if(num == 6)return "æ–¹é‚£è°"; 
+	if(num == 7)return "é»Žé‚£è°"; 
+	if(num == 8)return "æŽé‚£è°"; 
+	if(num == 9)return "æŽé‚£è°"; 
+	if(num == 10)return "æŽé‚£è°"; 
+	if(num == 11)return "å»–é‚£è°"; 
+	if(num == 12)return "å»–é‚£è°"; 
+	if(num == 13)return "åˆ˜é‚£è°"; 
+	if(num == 14)return "é¾™é‚£è°"; 
+	if(num == 15)return "ç²Ÿé‚£è°"; 
+	if(num == 16)return "çŽ‹é‚£è°"; 
+	if(num == 17)return "çŽ‹é‚£è°"; 
+	if(num == 18)return "çŽ‹é‚£è°"; 
+	if(num == 19)return "çŽ‹é‚£è°"; 
+	if(num == 20)return "çŽ‹é‚£è°"; 
+	if(num == 21)return "å‘é‚£è°"; 
+	if(num == 22)return "æ¨é‚£è°"; 
+	if(num == 23)return "éƒ‘é‚£è°"; 
+	if(num == 24)return "è¾¹é‚£è°"; 
+	if(num == 25)return "è‘£é‚£è°"; 
+	if(num == 26)return "æ®µé‚£è°"; 
+	if(num == 27)return "ä¾¯é‚£è°"; 
+	if(num == 28)return "é»„é‚£è°"; 
+	if(num == 29)return "é»„é‚£è°"; 
+	if(num == 30)return "è’‹é‚£è°"; 
+	if(num == 31)return "æŽé‚£è°"; 
+	if(num == 32)return "åˆ˜é‚£è°"; 
+	if(num == 33)return "å½­é‚£è°"; 
+	if(num == 34)return "çŸ³é‚£è°"; 
+	if(num == 35)return "å‘é‚£è°"; 
+	if(num == 36)return "ç†Šé‚£è°"; 
+	if(num == 37)return "æ¨é‚£è°"; 
+	if(num == 38)return "æ¨é‚£è°"; 
+	if(num == 39)return "å¼ é‚£è°"; 
+	if(num == 40)return "éƒ‘é‚£è°"; 
+	if(num == 41)return "é’Ÿé‚£è°"; 
+	if(num == 42)return "æœ±é‚£è°"; 
+	if(num == 43)return "èµµé‚£è°"; 
+	if(num == 44)return "æ¨é‚£è°"; 
+	if(num == 45)return "è”¡é‚£è°"; 
 	if(num == 0)return "      ";
 }
